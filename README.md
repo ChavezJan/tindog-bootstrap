@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# tindog-bootstrap
-=======
+Tindog-bootstrap
+
 TinDog Starting Files
->>>>>>> 7765daa (Initial Commit)
