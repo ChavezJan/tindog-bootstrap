@@ -108,15 +108,25 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    padding: 7% 15%;
     text-align: center;
     color: #fff;
 }
+
+/* #carouselTestimonialsControls {
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+} */
 
 .testimonials-img {
     border-radius: 100%;
     width: 15%;
     padding: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 /* press */
