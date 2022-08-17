@@ -10,7 +10,7 @@ body {
 
 .container-fluid {
     
-    padding: 3% 15%;
+    padding: 3% 15% 7% ;
 }
 
 h1{ 
@@ -72,9 +72,11 @@ p {
 /* Title Image */
 
 .title-img{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
     transition: 1s;
+    position: absolute;
+    right: 20%;
 }
 
 .title-img:hover {
@@ -84,6 +86,9 @@ p {
 /* Features */
 
 #features {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
     padding: 2%;
 }
 
