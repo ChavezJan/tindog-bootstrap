@@ -29,20 +29,20 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-md navbar-dark ">
 
-          <a class="navbar-brand" href="#">tindog</a>
+          <a class="navbar-brand" href="#title">tindog</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Contact</a>
+                <a class="nav-link " aria-current="page" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ">Download</a>
+                <a class="nav-link " href="#cta">Download</a>
               </li>
             </ul>
             <!-- Adding the search bar -->
@@ -60,8 +60,12 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-download btn-dark btn-lg">App Store</button>
-          <button type="button" class="btn btn-download btn-outline-light btn-lg">Play Store</button>
+          <button type="button" class="btn btn-download btn-dark btn-lg"><span class="material-symbols-outlined">
+            install_mobile
+            </span> App Store</button>
+          <button type="button" class="btn btn-download btn-outline-light btn-lg"><span class="material-symbols-outlined">
+            apk_install
+            </span> Play Store</button>
         </div>
         <div class="col-lg-6">
           <img class="title-img" src="images/iphone6.png"  alt="iphone-mockup">
@@ -221,9 +225,13 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-download btn-dark btn-lg"><span class="material-symbols-outlined">
+      install_mobile
+      </span> App Store</button>
+    <button type="button" class="btn btn-download btn-light btn-lg"><span class="material-symbols-outlined">
+      apk_install
+      </span> Play Store</button>
 
   </section>
 
@@ -231,6 +239,23 @@
   <!-- Footer -->
 
   <footer id="footer">
+
+    <div class="social-media">
+      <span class="material-symbols-outlined sm">
+        flutter_dash
+      </span>
+      <span class="material-symbols-outlined sm">
+        person_add
+      </span>
+      <span class="material-symbols-outlined sm">
+        photo_camera
+      </span>
+      <span class="material-symbols-outlined sm">
+        mail
+      </span>
+    </div>
+
+    
 
     <p>© Copyright TinDog</p>
 
